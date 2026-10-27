@@ -90,20 +90,68 @@ CausosOcultosQuixeramobimW Watch App/   watchOS companion (camera view, crown in
 
 ## Team
 
-| Name | GitHub |
-| --- | --- |
-| Carolina Sun | [@carolssun](https://github.com/carolssun) |
-| Dayô Araújo | [@dayoleal](https://github.com/dayoleal) |
-| Enzo Ferroni | [@EnzoFerroni](https://github.com/EnzoFerroni) |
-| Francisco Losada | [@LosadaT](https://github.com/LosadaT) |
-| Isabela Hissa Pinto | [@hissapinto](https://github.com/hissapinto) |
-| Jonas Melo | [@JonasFNMelo](https://github.com/JonasFNMelo) |
-| Tamires Mendes | [@TamiresMendesS](https://github.com/TamiresMendesS) |
-| Yasmin Mendes | [@YasminMSouza](https://github.com/YasminMSouza) |
+<div align="center">
+  <table>
+    <tr>
+      <td align="center" width="25%">
+        <a href="https://github.com/carolssun"><img src="https://github.com/carolssun.png" width="90" alt="Carolina Sun"/></a>
+        <br/><sub><b>Carolina Sun</b></sub><br/><br/>
+        <a href="https://github.com/carolssun"><img src="https://skillicons.dev/icons?i=github" alt="GitHub"/></a>
+        <a href="https://www.linkedin.com/in/carolina-sun/"><img src="https://skillicons.dev/icons?i=linkedin" alt="LinkedIn"/></a>
+      </td>
+      <td align="center" width="25%">
+        <a href="https://github.com/dayoleal"><img src="https://github.com/dayoleal.png" width="90" alt="Dayô Araújo"/></a>
+        <br/><sub><b>Dayô Araújo</b></sub><br/><br/>
+        <a href="https://github.com/dayoleal"><img src="https://skillicons.dev/icons?i=github" alt="GitHub"/></a>
+        <a href="https://www.linkedin.com/in/dayo-araujo/"><img src="https://skillicons.dev/icons?i=linkedin" alt="LinkedIn"/></a>
+      </td>
+      <td align="center" width="25%">
+        <a href="https://github.com/EnzoFerroni"><img src="https://github.com/EnzoFerroni.png" width="90" alt="Enzo Ferroni"/></a>
+        <br/><sub><b>Enzo Ferroni</b></sub><br/><br/>
+        <a href="https://github.com/EnzoFerroni"><img src="https://skillicons.dev/icons?i=github" alt="GitHub"/></a>
+        <a href="https://www.linkedin.com/in/enzoferroni/"><img src="https://skillicons.dev/icons?i=linkedin" alt="LinkedIn"/></a>
+      </td>
+      <td align="center" width="25%">
+        <a href="https://github.com/LosadaT"><img src="https://github.com/LosadaT.png" width="90" alt="Francisco Losada"/></a>
+        <br/><sub><b>Francisco Losada</b></sub><br/><br/>
+        <a href="https://github.com/LosadaT"><img src="https://skillicons.dev/icons?i=github" alt="GitHub"/></a>
+        <a href="https://www.linkedin.com/in/francisco-losada-totaro/"><img src="https://skillicons.dev/icons?i=linkedin" alt="LinkedIn"/></a>
+      </td>
+    </tr>
+    <tr>
+      <td align="center" width="25%">
+        <a href="https://github.com/hissapinto"><img src="https://github.com/hissapinto.png" width="90" alt="Isabela Hissa Pinto"/></a>
+        <br/><sub><b>Isabela Hissa Pinto</b></sub><br/><br/>
+        <a href="https://github.com/hissapinto"><img src="https://skillicons.dev/icons?i=github" alt="GitHub"/></a>
+        <a href="https://www.linkedin.com/in/isabela-hissa-pinto-05aa741b9/"><img src="https://skillicons.dev/icons?i=linkedin" alt="LinkedIn"/></a>
+      </td>
+      <td align="center" width="25%">
+        <a href="https://github.com/JonasFNMelo"><img src="https://github.com/JonasFNMelo.png" width="90" alt="Jonas Melo"/></a>
+        <br/><sub><b>Jonas Melo</b></sub><br/><br/>
+        <a href="https://github.com/JonasFNMelo"><img src="https://skillicons.dev/icons?i=github" alt="GitHub"/></a>
+        <a href="https://www.linkedin.com/in/jonas-melo-/"><img src="https://skillicons.dev/icons?i=linkedin" alt="LinkedIn"/></a>
+      </td>
+      <td align="center" width="25%">
+        <a href="https://github.com/TamiresMendesS"><img src="https://github.com/TamiresMendesS.png" width="90" alt="Tamires Mendes"/></a>
+        <br/><sub><b>Tamires Mendes</b></sub><br/><br/>
+        <a href="https://github.com/TamiresMendesS"><img src="https://skillicons.dev/icons?i=github" alt="GitHub"/></a>
+        <a href="https://www.linkedin.com/in/tamires-mendes-6006792b7/"><img src="https://skillicons.dev/icons?i=linkedin" alt="LinkedIn"/></a>
+      </td>
+      <td align="center" width="25%">
+        <a href="https://github.com/YasminMSouza"><img src="https://github.com/YasminMSouza.png" width="90" alt="Yasmin Mendes"/></a>
+        <br/><sub><b>Yasmin Mendes</b></sub><br/><br/>
+        <a href="https://github.com/YasminMSouza"><img src="https://skillicons.dev/icons?i=github" alt="GitHub"/></a>
+        <a href="https://www.linkedin.com/in/yasmin-mendes-629a29267/"><img src="https://skillicons.dev/icons?i=linkedin" alt="LinkedIn"/></a>
+      </td>
+    </tr>
+  </table>
+</div>
 
 Fork of the team repository [C11G3/CausosOcultosQuixeramobim](https://github.com/C11G3/CausosOcultosQuixeramobim).
 
 ## License
 
+Copyright (c) 2026 Carolina Sun, Dayô Araújo, Enzo Ferroni, Francisco Losada, Isabela Hissa Pinto,
+Jonas Melo, Tamires Mendes and Yasmin Mendes.
 Released under [Creative Commons Attribution-NonCommercial 4.0](LICENSE.md), as chosen
 by the team: you may share and adapt the work with credit, but not for commercial use.
