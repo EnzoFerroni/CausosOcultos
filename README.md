@@ -1,84 +1,109 @@
-<h1 align="center"> Causos Ocultos: Quixeramobim</h1>
-
-<p align="center">
-Jogo de suspense folclórico para <b>iOS + WatchOS</b> com integração entre dispositivos
-</p>
-
 <div align="center">
 
-![Swift](https://img.shields.io/badge/Swift-FA7343?style=for-the-badge&logo=swift&logoColor=white)
-![iOS](https://img.shields.io/badge/Apple-iOS-purple?style=for-the-badge&logo=apple&logoColor=white)
+<img src="docs/icon.png" width="120" alt="Causos Ocultos app icon"/>
+
+# Causos Ocultos: Quixeramobim
+
+[![iOS](https://img.shields.io/badge/iOS-26.2%2B-000000?logo=apple)](https://developer.apple.com/ios/)
+[![watchOS](https://img.shields.io/badge/watchOS-26.2%2B-000000?logo=apple)](https://developer.apple.com/watchos/)
+[![SpriteKit](https://img.shields.io/badge/SpriteKit-SwiftUI-F05138?logo=swift&logoColor=white)](https://developer.apple.com/spritekit/)
+[![License](https://img.shields.io/badge/License-CC%20BY--NC%204.0-lightgrey)](LICENSE.md)
+
+A survival horror game for iPhone and Apple Watch inspired by the folklore of Quixeramobim, in the Brazilian sertão.
+
+<a href="https://apps.apple.com/br/app/causosocultosquixeramobim/id6759735287">
+  <img src="https://developer.apple.com/app-store/marketing/guidelines/images/badge-download-on-the-app-store.svg" height="48" alt="Download on the App Store"/>
+</a>
 
 </div>
 
-<img width="3197" height="1475" alt="capelobo" src="https://github.com/user-attachments/assets/8a5d9006-7325-42b9-8c22-00fed226ce3c" />
+## Table of Contents
 
----
-## Índice
-- [Descrição](#descrição)
-- [Instrução de Instalação](#instrução-de-instalação)
-- [A História](#a-história)
-- [Instrução de Uso](#instrução-de-uso)
-- [Licença](#licença)
-- [Autores](#autores)
+- [About](#about)
+- [How to Play](#how-to-play)
+- [Screenshots](#screenshots)
+- [Built With](#built-with)
+- [Getting Started](#getting-started)
+- [Project Structure](#project-structure)
+- [Team](#team)
+- [License](#license)
 
-## Descrição 
+## About
 
-**Causos Ocultos: Quixeramobim** é um jogo de **suspense folclórico** com mecânicas de **sobrevivência, gerenciamento de recursos e investigação narrativa**, desenvolvido para **iOS + WatchOS** com integração entre dispositivos.
+*O Grito do Sertão: A Noite do Capelobo.* You are Val, the youngest of a big family,
+at her first Santo Antônio festival, who ignores grandma's "haunted" tales and stays out late. Then a howl
+that does not belong to this world breaks the silence. The Capelobo, a creature from
+northern Brazilian folklore, is hunting, and the only goal is to survive until dawn.
 
-O jogo combina elementos de **folclore nordestino**, suspense psicológico e mecânicas estratégicas de sobrevivência.
+Built at the Apple Developer Academy | Mackenzie, with a hand-drawn, cross-hatched
+art style. The game is published on the App Store and its text is in Portuguese.
 
-## Instrução de Instalação
-Para instalar os packages, siga as instruções a baixo:
+## How to Play
 
-```shell
-# Open a terminal (Command Prompt or PowerShell for Windows, Terminal for macOS or Linux)
+- Move between the rooms of the house: entrance, kitchen, shelf and window.
+- Barricade doors and windows before the Capelobo breaks in.
+- Find out the creature's story and weak points, then strike back at the right moment.
+- Survive each hour of the night until morning comes.
+- On the Apple Watch, turn the Digital Crown to switch between rooms and use the
+  watch to lure the Capelobo away.
 
-# Ensure Git is installed
-# Visit https://git-scm.com to download and install console Git if not already installed
+## Screenshots
 
-# Clone the repository
-git clone https://github.com/C11G3/CausosOcultosQuixeramobim.git
+| Story | Story |
+| :---: | :---: |
+| <img src="docs/screenshots/1.png" width="400"> | <img src="docs/screenshots/2.png" width="400"> |
+| **Nightfall** | **Gameplay** |
+| <img src="docs/screenshots/3.png" width="400"> | <img src="docs/screenshots/4.png" width="400"> |
 
-# Navigate to the project directory
-cd CausosOcultosQuixeramobim
+## Built With
+
+- SpriteKit scenes for the intro, tutorial and every room of the house
+- SwiftUI for menus, the HUD and navigation
+- WatchConnectivity to sync the iPhone game with the watchOS companion app
+- AVFoundation for the soundtrack and sound cues
+- Digital Crown input and haptics on Apple Watch
+
+## Getting Started
+
+Requirements: Xcode 26 or later. Run on an iPhone simulator or device with iOS 26.2;
+the Apple Watch companion needs a paired watch simulator or device.
+
+```bash
+git clone https://github.com/EnzoFerroni/CausosOcultos.git
+cd CausosOcultos
+open CausosOcultosQuixeramobim.xcodeproj
 ```
 
-## A História 
+## Project Structure
 
-Durante a noite de **Santo Antônio**, na cidade de **Quixeramobim**, Val desobedece a família e foge para a festa no antigo casarão da cidade. Antes de sair, porém, sua avó sonha que o **Capelobo**, uma criatura do folclore local, sussurra o nome da menina, sinal de que ela foi escolhida como próxima vítima.
+```
+CausosOcultosQuixeramobim/
+├── Scenes/
+│   ├── FillerScenes/    Intro, tutorial, victory and defeat scenes
+│   └── GameScenes/      Rooms of the house and their close-ups
+├── Entities/            Player, Enemy, Barricade, Breach
+├── Managers/            GameController, SceneManager, SoundManager, iPhone connectivity
+├── View/                SwiftUI menu, game, intro and game over views
+└── Models/              Enums, fonts
+CausosOcultosQuixeramobimW Watch App/   watchOS companion (camera view, crown input)
+```
 
-Depois de se divertir na festa, Val adormece por alguns minutos dentro do casarão. Quando acorda, tudo está vazio, as portas estão trancadas e a noite parece mais silenciosa do que deveria.
+## Team
 
-Lá fora, um uivo ecoa na escuridão.
+| Name | GitHub |
+| --- | --- |
+| Carolina Sun | [@carolssun](https://github.com/carolssun) |
+| Dayô Araújo | [@dayoleal](https://github.com/dayoleal) |
+| Enzo Ferroni | [@EnzoFerroni](https://github.com/EnzoFerroni) |
+| Francisco Losada | [@LosadaT](https://github.com/LosadaT) |
+| Isabela Hissa Pinto | [@hissapinto](https://github.com/hissapinto) |
+| Jonas Melo | [@JonasFNMelo](https://github.com/JonasFNMelo) |
+| Tamires Mendes | [@TamiresMendesS](https://github.com/TamiresMendesS) |
+| Yasmin Mendes | [@YasminMSouza](https://github.com/YasminMSouza) |
 
-Agora, presa dentro do casarão, Val precisa sobreviver enquanto o **Capelobo** ronda a casa à sua procura.
+Fork of the team repository [C11G3/CausosOcultosQuixeramobim](https://github.com/C11G3/CausosOcultosQuixeramobim).
 
-## Instrução de uso 
+## License
 
-Val precisa se mover pelos cômodos do casarão para observar onde o Capelobo está e impedir que ele entre na casa. Use os botões nas laterais da tela para passar de um cômodo para outro.
-
-Ao clicar nas portas e janelas, Val pode construir barricadas que ajudam a bloquear a entrada do monstro. Depois de colocar uma madeira, ela precisa descansar por alguns segundos antes de conseguir reforçar a barricada novamente.
-
-Com o tempo, algumas barricadas podem cair, já que Val é apenas uma criança e ainda não tem experiência para construir defesas muito resistentes.
-
-Para ajudar na vigilância, o Apple Watch funciona como um sistema de monitoramento, permitindo acompanhar a posição do Capelobo pelas câmeras da casa.
-
-## Licença 
-[CC BY-NC](https://github.com/C11G3/CausosOcultosQuixeramobim/blob/feature/readme/LICENSE.md) 
-
-## Autores 
-<a href="https://github.com/Alana-Abdias"><img src="https://avatars.githubusercontent.com/u/205686030?v=4" height=100></a>
-<a href="https://github.com/carolssun"><img src="https://github.com/user-attachments/assets/ecd7b932-ff07-46c7-87aa-339f94c17683" height=100></a>
-<a href="https://github.com/dayoleal"><img src="https://avatars.githubusercontent.com/u/203651036?v=4" height=100></a>
-<a href="https://github.com/EnzoFerroni"><img src="https://avatars.githubusercontent.com/u/125482399?v=4" height=100></a>
-<a href="https://github.com/hissapinto"><img src="https://avatars.githubusercontent.com/u/179589130?v=4" height=100></a>
-<a href="https://github.com/JonasFNMelo"><img src="https://avatars.githubusercontent.com/u/205985049?v=4" height=100></a>
-<a href="https://github.com/LosadaT"><img src="https://avatars.githubusercontent.com/u/99215889?v=4" height=100></a>
-<a href="https://github.com/matheusmotta16"><img src="https://avatars.githubusercontent.com/u/205989366?v=4" height=100></a>
-<a href="https://github.com/TamiresMendesS"><img src="https://avatars.githubusercontent.com/u/162062777?v=4" height=100></a>
-<a href="https://github.com/YasminMSouza"><img src="https://avatars.githubusercontent.com/u/178385852?v=4" height=100></a>
-
-
-
-
+Released under [Creative Commons Attribution-NonCommercial 4.0](LICENSE.md), as chosen
+by the team: you may share and adapt the work with credit, but not for commercial use.
