@@ -94,6 +94,12 @@ CausosOcultosQuixeramobimW Watch App/   watchOS companion (camera view, crown in
   <table>
     <tr>
       <td align="center" width="25%">
+        <a href="https://github.com/Alana-Abdias"><img src="https://github.com/Alana-Abdias.png" width="90" alt="Alana Abdias"/></a>
+        <br/><sub><b>Alana Abdias</b></sub><br/><br/>
+        <a href="https://github.com/Alana-Abdias"><img src="https://skillicons.dev/icons?i=github" alt="GitHub"/></a>
+        <a href="https://www.linkedin.com/in/alana-abdias-de-oliveira-macedo-585b11359/"><img src="https://skillicons.dev/icons?i=linkedin" alt="LinkedIn"/></a>
+      </td>
+      <td align="center" width="25%">
         <a href="https://github.com/carolssun"><img src="https://github.com/carolssun.png" width="90" alt="Carolina Sun"/></a>
         <br/><sub><b>Carolina Sun</b></sub><br/><br/>
         <a href="https://github.com/carolssun"><img src="https://skillicons.dev/icons?i=github" alt="GitHub"/></a>
@@ -111,14 +117,14 @@ CausosOcultosQuixeramobimW Watch App/   watchOS companion (camera view, crown in
         <a href="https://github.com/EnzoFerroni"><img src="https://skillicons.dev/icons?i=github" alt="GitHub"/></a>
         <a href="https://www.linkedin.com/in/enzoferroni/"><img src="https://skillicons.dev/icons?i=linkedin" alt="LinkedIn"/></a>
       </td>
+    </tr>
+    <tr>
       <td align="center" width="25%">
         <a href="https://github.com/LosadaT"><img src="https://github.com/LosadaT.png" width="90" alt="Francisco Losada"/></a>
         <br/><sub><b>Francisco Losada</b></sub><br/><br/>
         <a href="https://github.com/LosadaT"><img src="https://skillicons.dev/icons?i=github" alt="GitHub"/></a>
         <a href="https://www.linkedin.com/in/francisco-losada-totaro/"><img src="https://skillicons.dev/icons?i=linkedin" alt="LinkedIn"/></a>
       </td>
-    </tr>
-    <tr>
       <td align="center" width="25%">
         <a href="https://github.com/hissapinto"><img src="https://github.com/hissapinto.png" width="90" alt="Isabela Hissa Pinto"/></a>
         <br/><sub><b>Isabela Hissa Pinto</b></sub><br/><br/>
@@ -131,6 +137,14 @@ CausosOcultosQuixeramobimW Watch App/   watchOS companion (camera view, crown in
         <a href="https://github.com/JonasFNMelo"><img src="https://skillicons.dev/icons?i=github" alt="GitHub"/></a>
         <a href="https://www.linkedin.com/in/jonas-melo-/"><img src="https://skillicons.dev/icons?i=linkedin" alt="LinkedIn"/></a>
       </td>
+      <td align="center" width="25%">
+        <a href="https://github.com/matheusmotta16"><img src="https://github.com/matheusmotta16.png" width="90" alt="Matheus Motta"/></a>
+        <br/><sub><b>Matheus Motta</b></sub><br/><br/>
+        <a href="https://github.com/matheusmotta16"><img src="https://skillicons.dev/icons?i=github" alt="GitHub"/></a>
+        <a href="https://www.linkedin.com/in/matheus-motta-5a8539349/"><img src="https://skillicons.dev/icons?i=linkedin" alt="LinkedIn"/></a>
+      </td>
+    </tr>
+    <tr>
       <td align="center" width="25%">
         <a href="https://github.com/TamiresMendesS"><img src="https://github.com/TamiresMendesS.png" width="90" alt="Tamires Mendes"/></a>
         <br/><sub><b>Tamires Mendes</b></sub><br/><br/>
@@ -151,7 +165,8 @@ Fork of the team repository [C11G3/CausosOcultosQuixeramobim](https://github.com
 
 ## License
 
-Copyright (c) 2026 Carolina Sun, Dayô Araújo, Enzo Ferroni, Francisco Losada, Isabela Hissa Pinto,
-Jonas Melo, Tamires Mendes and Yasmin Mendes.
+Copyright (c) 2026 Alana Abdias, Carolina Sun, Dayô Araújo, Enzo Ferroni, Francisco
+Losada, Isabela Hissa Pinto, Jonas Melo, Matheus Motta, Tamires Mendes and Yasmin
+Mendes.
 Released under [Creative Commons Attribution-NonCommercial 4.0](LICENSE.md), as chosen
 by the team: you may share and adapt the work with credit, but not for commercial use.

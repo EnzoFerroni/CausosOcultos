@@ -1,6 +1,7 @@
 Causos Ocultos: Quixeramobim
-Copyright (c) 2026 Carolina Sun, Dayô Araújo, Enzo Ferroni, Francisco Losada, Isabela Hissa Pinto,
-Jonas Melo, Tamires Mendes and Yasmin Mendes.
+Copyright (c) 2026 Alana Abdias, Carolina Sun, Dayô Araújo, Enzo Ferroni, Francisco
+Losada, Isabela Hissa Pinto, Jonas Melo, Matheus Motta, Tamires Mendes and Yasmin
+Mendes.
 
 Licensed under the Creative Commons Attribution-NonCommercial 4.0 International
 license. The full license text follows.
